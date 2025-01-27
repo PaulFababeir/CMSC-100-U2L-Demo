@@ -24,6 +24,9 @@ def main():
             print("Please schedule a consultation.")
 
 def getNumbers(a, b):
-    return a+b
+    if str(a).isnumeric() and str(b).isnumeric():
+        return a+b
+    else:
+        return
 
 main()
