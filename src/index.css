@@ -1,0 +1,13 @@
+li {
+  color: black;
+  background-color: white;
+  transition: 300ms;
+  font-size: large;
+}
+
+li:hover {
+  color: white;
+  background-color: black;
+  transition: 300ms;
+  font-size: x-large;
+}
